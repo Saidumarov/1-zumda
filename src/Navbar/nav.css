@@ -150,9 +150,7 @@ nav {
         position: fixed;
     }
 
-    .logo {
-        margin-left: 40px;
-    }
+ 
 
     .barr {
         width: 40px;
@@ -229,5 +227,6 @@ nav {
         margin-left: 30px;
 
     }
+
 
 }
