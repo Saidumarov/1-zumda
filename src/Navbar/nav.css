@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    border: 2px solid #E7E7E7;
+}
+
+.nav {
+    width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+    height: 65px;
+    background-color: #F4F4F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    border: none;
+    border-radius: 2px;
+}
+
+.manzil {
+    width: 560px;
+    height: 55px;
+    margin-left: 300px;
+    background: #F7F7F7;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.imgm {
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+.navp {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #A2A2A2;
+    padding-left: 20px;
+    padding-top: 5px;
+
+}
+
+.kirish {
+    width: 151px;
+    height: 55px;
+    left: 1529px;
+    top: 36px;
+    background: #F7F7F7;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+}
+
+.odam {
+    width: 40px;
+    height: 40px;
+    margin-top: -5px;
+    margin-left: -20px;
+}
+
+.kirish p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #A2A2A2;
+    padding-left: 10px;
+}
+
+@media screen and (max-width:1400px) {
+    .nav {
+        width: 70%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+
+ 
+}
+
+@media screen and (max-width:800px) {
+    .manzil {
+        width: 560px;
+        display: none;
+    }
+
+
+
+    .kirish {
+        width: 100px;
+        display: none;
+
+    }
+    .bar{
+        width: 80%;
+        height: 100%;
+        position: absolute;
+        position: fixed;
+        background-color: #A2A2A2;
+        z-index: 5;
+       transition: .8s;
+    }
+
+    .bar1{
+        width: 60px;
+        height: 50px;
+         background-color: antiquewhite;
+         position: absolute;
+         z-index: 10;
+         right: 0;
+    }
+}

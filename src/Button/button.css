@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button {
+    width:89%;
+    height: 80px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    background: #23E089;
+    border-radius: 24px;
+    margin-bottom: 20px;
+}
+
+.button h1{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+color: #FFFFFF;
+text-align: center;
+padding-top: 20px;
+
+}

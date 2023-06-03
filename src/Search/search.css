@@ -11,10 +11,10 @@ body {
 }
 
 .serch {
-    width: 1300px;
+    width: 1340px;
     height: 356px;
     background-color: antiquewhite;
-    margin: 50px auto 0 auto;
+    margin: 30px auto 0 auto;
     background: linear-gradient(270deg, #FBFF27 0%, #EEF07E 55.69%, #23E089 100%);
     border-radius: 24px;
     display: flex;
