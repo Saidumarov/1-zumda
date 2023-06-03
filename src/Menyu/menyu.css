@@ -194,4 +194,10 @@ padding-top: 100px;
     }
 }
 
+@media screen and (max-width:800px) {
+    #men3{
+        margin-bottom: 30px;
+    }
+}
+
 

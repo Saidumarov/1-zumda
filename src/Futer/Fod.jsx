@@ -3,6 +3,8 @@ import "./fod.css"
 import img from "../assets/img/dilkash.png"
 import img1 from "../assets/img/dilcosh.png"
 import img2 from "../assets/img/velikcha.png"
+import img3 from "../assets/img/yurak.png"
+
 
 
 
@@ -19,6 +21,9 @@ const Fod = ({itme}) =>{
                     <img src={img1} alt=""  className="dil"/>
                     <div className="tez">
                         <img src={img2} alt="" className="vel" />13.000
+                    </div>
+                    <div className="yurak">
+                        <img src={img3} alt="" className="yurimg" />
                     </div>
                 </div>
            

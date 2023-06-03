@@ -78,6 +78,7 @@ form{
     padding-left: 50px;
 }
 
+
 }
 
 @media screen and (max-width:510px) {
@@ -90,6 +91,13 @@ form{
 .img {
 display: none;
 }
+
+.serch {
+    margin-top: 150px;
+}
+::placeholder{
+    opacity: -1;
+ }
 
 
 }
@@ -106,4 +114,20 @@ display: none;
        opacity: -1;
     }
    
+    }
+
+    @media screen and (max-width:800px) {
+        .serch {
+            margin-top: 150px;
+        }
+    }
+    @media screen and (min-width:800px) {
+        .qidruv {
+            width: 550px;
+        }
+    }
+    @media screen and (min-width:1300px) {
+        .qidruv {
+            width: 800px;
+        }
     }

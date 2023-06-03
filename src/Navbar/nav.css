@@ -92,6 +92,16 @@ nav {
     padding-left: 10px;
 }
 
+.kir{
+    display: none;
+}
+
+.manz{
+    display: none;
+}
+
+
+
 @media screen and (max-width:1400px) {
     .nav {
         width: 70%;
@@ -101,7 +111,7 @@ nav {
         align-items: center;
     }
 
- 
+
 }
 
 @media screen and (max-width:800px) {
@@ -117,22 +127,107 @@ nav {
         display: none;
 
     }
-    .bar{
+
+    .bar {
         width: 80%;
         height: 100%;
         position: absolute;
         position: fixed;
-        background-color: #A2A2A2;
+        background-color: #ebe9e9;
         z-index: 5;
-       transition: .8s;
+        transition: .5s;
+        left: -100%;
+        top: 0;
     }
 
-    .bar1{
+    .bar1 {
         width: 60px;
         height: 50px;
-         background-color: antiquewhite;
-         position: absolute;
-         z-index: 10;
-         right: 0;
+        position: absolute;
+        z-index: 4;
+        right: 0;
+        top: 30px;
+        position: fixed;
     }
+
+    .logo {
+        margin-left: 40px;
+    }
+
+    .barr {
+        width: 40px;
+        height: 3px;
+        background-color: #000000;
+        margin: 5px auto 0 auto;
+
+    }
+
+
+    .bar1.active .barr:nth-child(2) {
+        opacity: 0;
+    }
+
+
+    .bar1.active .barr:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .bar1.active .barr:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .bar.active {
+        left: 0%;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        background-color: #FFFFFF;
+        z-index: 10;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        box-sizing: border-box;
+
+
+    }
+
+    .kir {
+        width: 151px;
+        height: 55px;
+        top: 36px;
+        background: #F7F7F7;
+        border-radius: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 40px;
+        margin-top: 150px;
+
+    }
+
+
+    .bar p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 31px;
+        color: #A2A2A2;
+        padding-left: 10px;
+    }
+
+    .manz {
+        width: 80%;
+        height: 55px;
+        background: #F7F7F7;
+        border-radius: 18px;
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 30px;
+
+    }
+
 }

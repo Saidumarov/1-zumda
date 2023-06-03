@@ -11,7 +11,7 @@ body {
 }
 
 .button {
-    width:89%;
+    width:1350px;
     height: 80px;
     background-color: antiquewhite;
     margin: 0 auto;
@@ -30,4 +30,9 @@ color: #FFFFFF;
 text-align: center;
 padding-top: 20px;
 
+}
+
+@media screen and (max-width:1400px) {
+    .button {
+        width:90%;}
 }
