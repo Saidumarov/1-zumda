@@ -35,16 +35,16 @@ const Menyuel = () => {
 
     }
 
-    right.addEventListener("click", () => {
-        idx++;
-        changeim()
-    });
+    // right.addEventListener("click", () => {
+    //     idx++;
+    //     changeim()
+    // });
 
 
-    left.addEventListener("click", () => {
-        idx--;
-        changeim()
-    });
+    // left.addEventListener("click", () => {
+    //     idx--;
+    //     changeim()
+    // });
 
     // let inter = setInterval(run, 2000)
 
