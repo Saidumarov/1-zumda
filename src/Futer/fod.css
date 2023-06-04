@@ -34,6 +34,7 @@
     border-radius: 24px 24px 0px 0px;
     width: 100%;
     height: 320px;
+    object-fit: cover;
 }
 
 .diltet {
@@ -98,7 +99,7 @@
     justify-content: center;
     align-items: center;
     margin: -100px 0 0 360px;
-    z-index: 5;
+    z-index: 1;
     position: relative;
     background: #F7F7F7;
 }
@@ -186,6 +187,7 @@
         margin: -130px 0 0 250px;
     }
  
+    
     
 }
 

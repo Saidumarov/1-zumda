@@ -129,7 +129,7 @@ nav {
     }
 
     .bar {
-        width: 80%;
+        width: 80.8%;
         height: 100%;
         position: absolute;
         position: fixed;
@@ -228,5 +228,8 @@ nav {
 
     }
 
+    .logo {
+        margin-left: 20px;
+    }
 
 }

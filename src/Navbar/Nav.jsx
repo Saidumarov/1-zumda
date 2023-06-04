@@ -2,24 +2,26 @@ import React from "react";
 import "./nav.css"
 import img from "../assets/img/manzil.png"
 import img1 from "../assets/img/odam.png"
+import "../Companit/dis.css"
+
 
 const Nav = () => {
 
     function bar1() {
         const bar = document.querySelector(".bar")
         let bar1 = document.querySelector(".bar1")
+        let dis = document.querySelector(".dis")
 
-        // bar.style.left = "0%"
         bar1.classList.toggle("active")
         bar.classList.toggle("active")
-    }
+        dis.classList.toggle("active")
 
-    // let nav = document.querySelector(".bar")
+    }
 
 
     return (
         <div>
-
+  <div className="dis"></div>
             <div className="bar" >
                <div className="kir"><img src={img1} alt="" className="odam" />
                <p>Войти</p></div>

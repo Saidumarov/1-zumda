@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dis{
+width: 100%;
+height: 100%;
+position: absolute;
+background-color: #FFFFFF;
+position: fixed;
+z-index: 2;
+top: 0;
+opacity: .6;
+display: none;
+transition: all ease 1.5s;
+
+
+}
+
+.dis.active {
+    display: block;
+    transition: all ease 1.5s;
+
+
+}
+
+
